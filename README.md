@@ -16,11 +16,16 @@ Todo list:
 ## Installation (FOR PROJECT HELP!! its not done!)
 ```bash
 git clone https://github.com/Ray17x/KY8.git
+# For development via vscode
+cd KY8
+mkdir .vscode
+cp c_cpp_properties.json ./.vscode
+# Applies to both usage and development
+mkdir ./build
 cd KY8/build
 cmake ..
-make
-./main
 ```
 
 ## Usage
 none... yet 👀
+
